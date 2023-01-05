@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RoomService/src/roomService/main.iml" filepath="$PROJECT_DIR$/RoomService/src/roomService/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login/src/Login/main2.iml" filepath="$PROJECT_DIR$/Login/src/Login/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotelService/src/Hotelservice/main3.iml" filepath="$PROJECT_DIR$/HotelService/src/Hotelservice/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka/src/Eurikaserver/main4.iml" filepath="$PROJECT_DIR$/Eureka/src/Eurikaserver/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookingService/src/bookingService/main5.iml" filepath="$PROJECT_DIR$/BookingService/src/bookingService/main5.iml" />
+    </modules>
+  </component>
+</project>
