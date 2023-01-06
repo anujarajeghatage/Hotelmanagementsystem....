@@ -29,7 +29,7 @@ public class Swagger2Config {
 
 		return new ApiInfoBuilder().title("Hotel Management System")
 				.description("Booking Service")
-				.contact(new Contact("SHUBHAM POL", "www.something.com", "shubham.pol1998@gmail.com"))
+				.contact(new Contact("anuja", "www.something.com", "shubham.pol1998@gmail.com"))
 				.license("Apache 2.0")
 				.licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
 				.version("1.0.0")

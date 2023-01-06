@@ -30,6 +30,7 @@ public class User {
   private String password;
 
   @DBRef
+  //allows u to easily refrence documnets stored in multiple database66
   private Set<Role> roles = new HashSet<>();
 
   public User() {

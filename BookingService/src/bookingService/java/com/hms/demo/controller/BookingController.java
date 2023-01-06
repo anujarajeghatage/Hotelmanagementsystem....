@@ -35,7 +35,8 @@ public class BookingController {
 
 	@Autowired
 	private BookingRepository repository;
-	
+	@Autowired
+	private BookingService bookingService;
 	@Autowired
 	private FeedBackRepo feedrepo;
 	
@@ -72,11 +73,12 @@ public class BookingController {
 	@ApiOperation(value = "add booking")
 	@PostMapping("/booking")
 	public void addBooking(@RequestBody Booking book) {
+		return bookingService.save(book);
 		System.out.println("HYYYYY");
 		book.setFeedGiven(false);
 		if(book.getId() == 0) {
 		book.setBookingId(sequenceGeneratorService.generateSequence(book.SEQUENCE_NAME));}
-		
+
 		repository.save(book);
 	}
 
