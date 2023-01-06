@@ -82,18 +82,6 @@ public class BookingController {
 		repository.save(book);
 	}
 
-//	@GetMapping("/booking/date/{startDate}/to/{endDate}")
-//	public List<Booking> showBookingsByDate(
-//			@PathVariable @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate startDate,
-//			@PathVariable @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate endDate) {
-//		if ((startDate.compareTo(endDate)) > 0) {
-//			return null;
-//		} else {
-//			return repository.findAll().stream().filter(
-//					(bookings) -> bookings.getCheckin().isAfter(startDate.minusDays(1)) && bookings.getCheckout().isBefore(endDate.plusDays(1)))
-//					.collect(Collectors.toList());
-//		}
-//	}
 	
 	@ApiOperation(value = "update booking")
 	//update
